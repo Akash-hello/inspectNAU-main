@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - plane
+  - hasinfo
+  - AutowatchList
+  - popupmsg
+  - popupmsgtxt
+  - Canvas
+  - mywatchpanel
+  - SelectItem
+  - marketwatchcounter
+  - countrycodeinput
+  - Countrysscrollview
+  - stocksbutton
+  - simulatedate
+  - counterttlstocksexchg
+  - stockscount
+  - StockRecap
+  - StockRecapParentOBJ
+  - inspectionsblock
+  - canvaspositions
+  - selectedinspid
+  - questionsparent
+  - devicecamera
+  - inputvariablename
+  - ActiveInputField
+  - datepicker
+  - mandatory
+  - selectedinspname
+  - inspectioninfo
+  - readingpane
+  - selectedanswer
+  - inspectionstatus
+  - AnswerGroup
+  - logo
+  - headerline
+  - footerline
+  - ROVIQ
+  - ROVIQBTN
+  - openaccordion
+  - quesopenaccordion
+  - daycube
+  - month
+  - year
+  - hour
+  - minute
+  - cameraphoto
+  - devicecampnl
+  - livecamcanvas
+  - shipphotouploadbtn
+  - loaddraftbtn
+  - speechcube
+  - historicsireinsp
+  - shipphotodisabletext
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Drawing
+  - Water
+  - UI
+  - UILayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
