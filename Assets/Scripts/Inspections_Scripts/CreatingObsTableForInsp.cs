@@ -72,6 +72,7 @@ public class CreatingObsTableForInsp : MonoBehaviour
     public string Timestamp;
 
     public RectTransform ParentPanel;
+    public RectTransform QuestionsParentPanel;
 
     public GameObject chaptersitemprefab; //Used for Chapters here.
     public GameObject chaptersaccordion;
@@ -722,6 +723,12 @@ public class CreatingObsTableForInsp : MonoBehaviour
                 chaptersaccordion = Instantiate(chaptersitemprefab);
                 chapterprefabitems Chapter = chaptersaccordion.GetComponent<chapterprefabitems>();
                 chaptersaccordion.transform.SetParent(ParentPanel, false);
+                
+                if (Chapter.GetComponent<loadquestionfmObsTable>() != null)
+                {
+                    Chapter.GetComponent<loadquestionfmObsTable>().ParentPanel_1 = QuestionsParentPanel;
+                }
+
                 //completionstatus = "CREATE COMPLETION STATUS FOR HERE";
 
                 Chapter.Header_Text.text = x._Template_Section_Ques.ToString() + ": " + x._Obs_Details_1.ToString();
@@ -1255,6 +1262,12 @@ public class CreatingObsTableForInsp : MonoBehaviour
             chaptersaccordion = Instantiate(chaptersitemprefab);
             chapterprefabitems Chapter = chaptersaccordion.GetComponent<chapterprefabitems>();
             chaptersaccordion.transform.SetParent(ParentPanel, false);
+            
+            if (Chapter.GetComponent<loadquestionfmObsTable>() != null)
+            {
+                Chapter.GetComponent<loadquestionfmObsTable>().ParentPanel_1 = QuestionsParentPanel;
+            }
+
             //completionstatus = "CREATE COMPLETION STATUS FOR HERE";
 
             Chapter.Header_Text.text = displayTitle.ToString();
