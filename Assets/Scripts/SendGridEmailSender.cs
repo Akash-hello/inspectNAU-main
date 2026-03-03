@@ -10,7 +10,7 @@ using TMPro;
 public class SendGridEmailSender : MonoBehaviour
 {
     //Replace with your SendGrid API key
-    private const string apiKey = "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";
+    private const string apiKey = "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";
     private const string sendGridUrl = "https://api.sendgrid.com/v3/mail/send";
     public string toEmail;
     public string cc;

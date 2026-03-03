@@ -35,7 +35,7 @@ public class TwilioMessaging : MonoBehaviour
         from = "whatsapp:+15592490222"; // format for Whatsapp
         //from = "+15592490222"; format for SMS
         account_sid = "ACf1de5a64b09e6bd9543e9d1e174df2de";
-        auth = "9326a0ba0c4a18b80c972234d551acdf";
+        auth = "a89a380b2e2ebdf4bcf807caa2fef958";
 
     }
 
